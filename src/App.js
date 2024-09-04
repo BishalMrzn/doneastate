@@ -1,11 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import TextForm from './component/TextForm';
+import About from './component/About';
+// import TextForm from './component/TextForm';
 
 function App() {
   return (
     <div className="container">
-     <TextForm heading="Anything"/>
+     {/* <TextForm heading="Anything"/> */}
+     <About/>
     </div>
   );
 }
